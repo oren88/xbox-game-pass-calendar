@@ -2,6 +2,8 @@ export type GamePassEvent = {
   id: string
   title: string
   date: string
+  eventType: 'coming-soon' | 'available-today' | 'missed'
+  isSurprise: boolean
   platforms: string[]
   plans: string[]
   isDayOne: boolean

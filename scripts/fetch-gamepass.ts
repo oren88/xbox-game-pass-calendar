@@ -37,11 +37,13 @@ const STOP_HEADINGS = [
   'in-game benefits',
   'game pass ultimate perks',
   'free play days',
-  'in case you missed it',
 ]
+
+type GamePassEventType = GamePassEvent['eventType']
 
 type ParsedGamePassEvent = Omit<GamePassEvent, 'trailerUrl' | 'playthroughUrl' | 'videoSource'> & {
   articleImageUrl: string | null
+  hasExplicitDate: boolean
 }
 
 type StoreSearchProduct = {
@@ -182,16 +184,9 @@ function slugify(value: string) {
 }
 
 function cleanTitle(value: string) {
-  const normalized = normalizeText(value)
+  return normalizeText(value)
     .replace(/\s*[–—-]\s*$/, '')
     .replace(/^Image:\s*/i, '')
-
-  const sentenceParts = normalized
-    .split(/[.!?]\s*/)
-    .map((part) => part.trim())
-    .filter(Boolean)
-
-  return sentenceParts.at(-1) ?? normalized
 }
 
 function normalizeForMatch(value: string) {
@@ -474,8 +469,12 @@ function buildWaveArticleUrls(startDate: string, endDate: string) {
 }
 
 function parseEntry(text: string, fallbackYear: number, defaultDate: string) {
-  const withDate = text.match(/^(.+?)\s+\(([^)]+)\)\s*[–—-]\s*([^.!]+?)(?:\s{2,}|$)/)
-  const withoutDate = text.match(/^(.+?)\s+\(([^)]+)\)\s*(?=Game Pass|Now with|Available|The full release|A year of updates|$)/)
+  const withDate = text.match(
+    /^(.+?)\s+\(([^)]+)\)\s*[–—-]\s*([^.!]+?)(?:[.!])?(?=\s*(?:Game Pass|Now with|Available|The full release|A year of updates)|\s{2,}|$)/,
+  )
+  const withoutDate = text.match(
+    /^(.+?)\s+\(([^)]+)\)\s*(?=Game Pass|Now with|Available|The full release|A year of updates|$)/,
+  )
   const entry = withDate ?? withoutDate
 
   if (!entry) {
@@ -490,12 +489,24 @@ function parseEntry(text: string, fallbackYear: number, defaultDate: string) {
     title,
     platforms,
     date: parsedDate,
+    hasExplicitDate: Boolean(withDate),
   }
 }
 
-function shouldCollectSection(heading: string) {
+function eventTypeFromHeading(heading: string): GamePassEventType | null {
   const normalized = heading.toLowerCase()
-  return normalized.includes('available today') || normalized.includes('coming soon')
+
+  if (normalized.includes('available today')) {
+    return 'available-today'
+  }
+  if (normalized.includes('coming soon')) {
+    return 'coming-soon'
+  }
+  if (normalized.includes('in case you missed it')) {
+    return 'missed'
+  }
+
+  return null
 }
 
 function inDateRange(date: string, startDate: string, endDate: string) {
@@ -517,14 +528,13 @@ function parseArticle(html: string, sourceUrl: string) {
 
   $('h2, h3').each((_, heading) => {
     const headingText = normalizeText($(heading).text())
+    const eventType = eventTypeFromHeading(headingText)
 
-    if (!shouldCollectSection(headingText)) {
+    if (!eventType) {
       return
     }
 
-    const defaultDate = headingText.toLowerCase().includes('available today')
-      ? sourcePublishedAt
-      : sourcePublishedAt
+    const defaultDate = sourcePublishedAt
     let pendingImage = imageFromElement($, heading, sourceUrl)
     let lastEvent: ParsedGamePassEvent | null = null
 
@@ -558,9 +568,12 @@ function parseArticle(html: string, sourceUrl: string) {
           const plans = extractPlans(text)
           const isDayOne = /available day one|day one with xbox game pass/i.test(text)
           const event: ParsedGamePassEvent = {
-            id: `${slugify(parsed.title)}-${parsed.date}`,
+            id: eventId(parsed.title, parsed.date),
             title: parsed.title,
             date: parsed.date,
+            eventType,
+            isSurprise: false,
+            hasExplicitDate: parsed.hasExplicitDate,
             platforms: parsed.platforms,
             plans,
             isDayOne,
@@ -596,11 +609,120 @@ function parseArticle(html: string, sourceUrl: string) {
   return events
 }
 
+function eventId(title: string, date: string) {
+  return `${slugify(title)}-${date}`
+}
+
+function eventMatchKey(event: Pick<ParsedGamePassEvent, 'title' | 'date'>) {
+  return `${normalizeForMatch(event.title)}|${event.date}`
+}
+
+function normalizeImplicitMissedDates(events: ParsedGamePassEvent[]) {
+  return events.map((event) => {
+    if (event.eventType !== 'missed' || event.hasExplicitDate) {
+      return event
+    }
+
+    const priorEvent = events
+      .filter(
+        (candidate) =>
+          candidate !== event &&
+          normalizeForMatch(candidate.title) === normalizeForMatch(event.title) &&
+          candidate.eventType !== 'missed' &&
+          candidate.date <= event.sourcePublishedAt &&
+          candidate.sourcePublishedAt <= event.sourcePublishedAt,
+      )
+      .sort((a, b) => b.date.localeCompare(a.date))[0]
+
+    if (!priorEvent) {
+      return event
+    }
+
+    return {
+      ...event,
+      date: priorEvent.date,
+      id: eventId(event.title, priorEvent.date),
+    }
+  })
+}
+
+function markSurpriseEvents(events: ParsedGamePassEvent[]) {
+  const comingSoonAnnouncements = new Map<string, string[]>()
+
+  for (const event of events) {
+    if (event.eventType !== 'coming-soon') {
+      continue
+    }
+
+    const key = eventMatchKey(event)
+    const dates = comingSoonAnnouncements.get(key) ?? []
+    dates.push(event.sourcePublishedAt)
+    comingSoonAnnouncements.set(key, dates)
+  }
+
+  return events.map((event) => {
+    if (event.eventType === 'coming-soon') {
+      return event
+    }
+
+    const previousAnnouncements = comingSoonAnnouncements.get(eventMatchKey(event)) ?? []
+    const wasPreviouslyAnnounced = previousAnnouncements.some(
+      (publishedAt) => publishedAt < event.sourcePublishedAt,
+    )
+
+    return {
+      ...event,
+      isSurprise: !wasPreviouslyAnnounced,
+    }
+  })
+}
+
+function mergeUnique<T>(left: T[], right: T[]) {
+  return [...new Set([...left, ...right])]
+}
+
+function shouldReplaceDuplicate(existing: ParsedGamePassEvent, incoming: ParsedGamePassEvent) {
+  if (incoming.isSurprise !== existing.isSurprise) {
+    return incoming.isSurprise
+  }
+
+  if (existing.eventType === 'coming-soon' && incoming.eventType !== 'coming-soon') {
+    return false
+  }
+
+  if (incoming.eventType === 'available-today' && existing.eventType === 'missed') {
+    return true
+  }
+
+  return incoming.sourcePublishedAt > existing.sourcePublishedAt
+}
+
 function dedupeEvents(events: ParsedGamePassEvent[]) {
   const byId = new Map<string, ParsedGamePassEvent>()
 
   for (const event of events) {
-    byId.set(event.id, event)
+    const existing = byId.get(event.id)
+
+    if (!existing) {
+      byId.set(event.id, event)
+      continue
+    }
+
+    const preferred = shouldReplaceDuplicate(existing, event) ? event : existing
+    const fallback = preferred === event ? existing : event
+
+    byId.set(event.id, {
+      ...preferred,
+      platforms: mergeUnique(preferred.platforms, fallback.platforms),
+      plans: mergeUnique(preferred.plans, fallback.plans),
+      isDayOne: preferred.isDayOne || fallback.isDayOne,
+      isSurprise: preferred.isSurprise || fallback.isSurprise,
+      imageUrl: preferred.imageUrl ?? fallback.imageUrl,
+      imageSource: preferred.imageSource ?? fallback.imageSource,
+      storeUrl: preferred.storeUrl ?? fallback.storeUrl,
+      articleImageUrl: preferred.articleImageUrl ?? fallback.articleImageUrl,
+      hasExplicitDate: preferred.hasExplicitDate || fallback.hasExplicitDate,
+    })
   }
 
   return [...byId.values()].sort((a, b) => {
@@ -647,6 +769,8 @@ async function applyImageFallbacks(events: ParsedGamePassEvent[]) {
     id: event.id,
     title: event.title,
     date: event.date,
+    eventType: event.eventType,
+    isSurprise: event.isSurprise,
     platforms: event.platforms,
     plans: event.plans,
     isDayOne: event.isDayOne,
@@ -687,9 +811,9 @@ async function main() {
       return html ? parseArticle(html, url) : []
     }),
   )
-  const parsedEvents = dedupeEvents(eventGroups.flat()).filter((event) =>
-    inDateRange(event.date, START_DATE, END_DATE),
-  )
+  const parsedEvents = dedupeEvents(
+    markSurpriseEvents(normalizeImplicitMissedDates(eventGroups.flat())),
+  ).filter((event) => inDateRange(event.date, START_DATE, END_DATE))
   const events = await applyImageFallbacks(parsedEvents)
 
   if (events.length === 0) {

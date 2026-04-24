@@ -3,6 +3,8 @@
     "id": "brews-bastards-2026-01-06",
     "title": "Brews & Bastards",
     "date": "2026-01-06",
+    "eventType": "available-today",
+    "isSurprise": true,
     "platforms": [
       "Cloud",
       "PC",
@@ -28,6 +30,8 @@
     "id": "little-nightmares-enhanced-edition-2026-01-06",
     "title": "Little Nightmares Enhanced Edition",
     "date": "2026-01-06",
+    "eventType": "available-today",
+    "isSurprise": true,
     "platforms": [
       "Cloud",
       "Handheld",
@@ -54,6 +58,8 @@
     "id": "atomfall-2026-01-07",
     "title": "Atomfall",
     "date": "2026-01-07",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -78,6 +84,8 @@
     "id": "lost-in-random-the-eternal-die-2026-01-07",
     "title": "Lost in Random: The Eternal Die",
     "date": "2026-01-07",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -102,6 +110,8 @@
     "id": "rematch-2026-01-07",
     "title": "Rematch",
     "date": "2026-01-07",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "PC",
@@ -125,6 +135,8 @@
     "id": "warhammer-40-000-space-marine-master-crafted-edition-2026-01-07",
     "title": "Warhammer 40,000: Space Marine – Master Crafted Edition",
     "date": "2026-01-07",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "PC",
@@ -148,6 +160,8 @@
     "id": "final-fantasy-2026-01-08",
     "title": "Final Fantasy",
     "date": "2026-01-08",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -173,6 +187,8 @@
     "id": "star-wars-outlaws-2026-01-13",
     "title": "Star Wars Outlaws",
     "date": "2026-01-13",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "PC",
@@ -197,6 +213,8 @@
     "id": "my-little-pony-a-zephyr-heights-mystery-2026-01-15",
     "title": "My Little Pony: A Zephyr Heights Mystery",
     "date": "2026-01-15",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -223,6 +241,8 @@
     "id": "mio-memories-in-orbit-2026-01-20",
     "title": "MIO: Memories in Orbit",
     "date": "2026-01-20",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Handheld",
@@ -240,6 +260,30 @@
     "trailerUrl": "https://www.youtube.com/results?search_query=MIO%3A%20Memories%20in%20Orbit%20official%20trailer",
     "playthroughUrl": "https://www.youtube.com/results?search_query=MIO%3A%20Memories%20in%20Orbit%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/01/06/xbox-game-pass-january-2026-wave-1/",
+    "sourceTitle": "Coming to Xbox Game Pass: Star Wars Outlaws, Resident Evil Village, and More",
+    "sourcePublishedAt": "2026-01-06"
+  },
+  {
+    "id": "quarantine-zone-the-last-check-2026-01-20",
+    "title": "Quarantine Zone: The Last Check",
+    "date": "2026-01-20",
+    "eventType": "missed",
+    "isSurprise": true,
+    "platforms": [
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "PC Game Pass"
+    ],
+    "isDayOne": false,
+    "imageUrl": "https://assets-xbxweb.xbox.com/xbox-web/static/media/XboxGamePassDark.b46827bb.png",
+    "imageSource": "store",
+    "storeUrl": "https://www.xbox.com/en-us/games/store/quarantine-zone-the-last-check/9P9446P7D9TZ",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Quarantine%20Zone%3A%20The%20Last%20Check%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=Quarantine%20Zone%3A%20The%20Last%20Check%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
     "sourceUrl": "https://news.xbox.com/en-us/2026/01/20/xbox-game-pass-january-2026-wave-2/",
     "sourceTitle": "Coming to Xbox Game Pass: Warhammer 40,000: Space Marine II, Death Stranding Director’s Cut, and More",
     "sourcePublishedAt": "2026-01-20"
@@ -248,6 +292,8 @@
     "id": "resident-evil-village-2026-01-20",
     "title": "Resident Evil Village",
     "date": "2026-01-20",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -261,18 +307,20 @@
     "isDayOne": false,
     "imageUrl": "https://assets-xbxweb.xbox.com/xbox-web/static/media/XboxGamePassDark.b46827bb.png",
     "imageSource": "store",
-    "storeUrl": "https://www.xbox.com/en-US/games/store/resident-evil-village/9N2S04LGXXH4/0010",
+    "storeUrl": "https://www.xbox.com/en-us/games/store/resident-evil-village/9n2s04lgxxh4",
     "trailerUrl": "https://www.youtube.com/results?search_query=Resident%20Evil%20Village%20official%20trailer",
     "playthroughUrl": "https://www.youtube.com/results?search_query=Resident%20Evil%20Village%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
-    "sourceUrl": "https://news.xbox.com/en-us/2026/01/20/xbox-game-pass-january-2026-wave-2/",
-    "sourceTitle": "Coming to Xbox Game Pass: Warhammer 40,000: Space Marine II, Death Stranding Director’s Cut, and More",
-    "sourcePublishedAt": "2026-01-20"
+    "sourceUrl": "https://news.xbox.com/en-us/2026/01/06/xbox-game-pass-january-2026-wave-1/",
+    "sourceTitle": "Coming to Xbox Game Pass: Star Wars Outlaws, Resident Evil Village, and More",
+    "sourcePublishedAt": "2026-01-06"
   },
   {
     "id": "death-stranding-director-s-cut-2026-01-21",
     "title": "Death Stranding Director’s Cut",
     "date": "2026-01-21",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Handheld",
@@ -299,6 +347,8 @@
     "id": "ninja-gaiden-ragebound-2026-01-21",
     "title": "Ninja Gaiden Ragebound",
     "date": "2026-01-21",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "PC",
@@ -324,6 +374,8 @@
     "id": "roadcraft-2026-01-21",
     "title": "RoadCraft",
     "date": "2026-01-21",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "PC"
     ],
@@ -345,9 +397,11 @@
     "sourcePublishedAt": "2026-01-20"
   },
   {
-    "id": "the-talos-principle-2-2026-01-27",
-    "title": "The Talos Principle 2",
+    "id": "a-brand-new-side-scrolling-entry-to-the-ninja-gaiden-series-from-the-team-behind-blasphemous-ninja-gaiden-ragebound-redefines-the-classic-platformer-saga-in-a-spectacular-thrilling-and-challenging-ninja-adventure-the-talos-principle-2-2026-01-27",
+    "title": "A brand-new side-scrolling entry to the Ninja Gaiden series from the team behind Blasphemous, Ninja Gaiden: Ragebound redefines the classic platformer saga in a spectacular, thrilling and challenging ninja adventure.The Talos Principle 2",
     "date": "2026-01-27",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "PC",
       "Xbox Series X|S"
@@ -361,17 +415,19 @@
     "imageUrl": "https://assets-xbxweb.xbox.com/xbox-web/static/media/XboxGamePassDark.b46827bb.png",
     "imageSource": "store",
     "storeUrl": "https://www.xbox.com/en-us/games/store/the-talos-principle-2/9n7p8gvmf6ss",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Talos%20Principle%202%20official%20trailer",
-    "playthroughUrl": "https://www.youtube.com/results?search_query=The%20Talos%20Principle%202%20gameplay%20walkthrough",
+    "trailerUrl": "https://www.youtube.com/results?search_query=A%20brand-new%20side-scrolling%20entry%20to%20the%20Ninja%20Gaiden%20series%20from%20the%20team%20behind%20Blasphemous%2C%20Ninja%20Gaiden%3A%20Ragebound%20redefines%20the%20classic%20platformer%20saga%20in%20a%20spectacular%2C%20thrilling%20and%20challenging%20ninja%20adventure.The%20Talos%20Principle%202%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=A%20brand-new%20side-scrolling%20entry%20to%20the%20Ninja%20Gaiden%20series%20from%20the%20team%20behind%20Blasphemous%2C%20Ninja%20Gaiden%3A%20Ragebound%20redefines%20the%20classic%20platformer%20saga%20in%20a%20spectacular%2C%20thrilling%20and%20challenging%20ninja%20adventure.The%20Talos%20Principle%202%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
     "sourceUrl": "https://news.xbox.com/en-us/2026/01/20/xbox-game-pass-january-2026-wave-2/",
     "sourceTitle": "Coming to Xbox Game Pass: Warhammer 40,000: Space Marine II, Death Stranding Director’s Cut, and More",
     "sourcePublishedAt": "2026-01-20"
   },
   {
-    "id": "anno-mutationem-2026-01-28",
-    "title": "Anno: Mutationem",
+    "id": "a-thought-provoking-first-person-puzzle-experience-that-greatly-expands-the-first-game-s-philosophical-themes-and-stunning-environments-with-increasingly-mind-bending-challenges-born-into-a-new-world-where-biological-humanity-is-extinct-but-human-culture-lives-on-in-a-city-of-robots-get-swept-up-in-a-mind-bending-adventure-involving-a-mysterious-megastructure-hiding-enormous-powers-anno-mutationem-2026-01-28",
+    "title": "A thought-provoking first-person puzzle experience that greatly expands the first game’s philosophical themes and stunning environments with increasingly mind-bending challenges. Born into a new world where biological humanity is extinct but human culture lives on in a city of robots, get swept up in a mind-bending adventure involving a mysterious megastructure hiding enormous powers.Anno: Mutationem",
     "date": "2026-01-28",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "PC",
@@ -386,8 +442,8 @@
     "imageUrl": "https://assets-xbxweb.xbox.com/xbox-web/static/media/XboxGamePassDark.b46827bb.png",
     "imageSource": "store",
     "storeUrl": "https://www.xbox.com/en-us/games/store/anno-mutationem/9pmhghxlgljm",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Anno%3A%20Mutationem%20official%20trailer",
-    "playthroughUrl": "https://www.youtube.com/results?search_query=Anno%3A%20Mutationem%20gameplay%20walkthrough",
+    "trailerUrl": "https://www.youtube.com/results?search_query=A%20thought-provoking%20first-person%20puzzle%20experience%20that%20greatly%20expands%20the%20first%20game%E2%80%99s%20philosophical%20themes%20and%20stunning%20environments%20with%20increasingly%20mind-bending%20challenges.%20Born%20into%20a%20new%20world%20where%20biological%20humanity%20is%20extinct%20but%20human%20culture%20lives%20on%20in%20a%20city%20of%20robots%2C%20get%20swept%20up%20in%20a%20mind-bending%20adventure%20involving%20a%20mysterious%20megastructure%20hiding%20enormous%20powers.Anno%3A%20Mutationem%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=A%20thought-provoking%20first-person%20puzzle%20experience%20that%20greatly%20expands%20the%20first%20game%E2%80%99s%20philosophical%20themes%20and%20stunning%20environments%20with%20increasingly%20mind-bending%20challenges.%20Born%20into%20a%20new%20world%20where%20biological%20humanity%20is%20extinct%20but%20human%20culture%20lives%20on%20in%20a%20city%20of%20robots%2C%20get%20swept%20up%20in%20a%20mind-bending%20adventure%20involving%20a%20mysterious%20megastructure%20hiding%20enormous%20powers.Anno%3A%20Mutationem%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
     "sourceUrl": "https://news.xbox.com/en-us/2026/01/20/xbox-game-pass-january-2026-wave-2/",
     "sourceTitle": "Coming to Xbox Game Pass: Warhammer 40,000: Space Marine II, Death Stranding Director’s Cut, and More",
@@ -397,6 +453,8 @@
     "id": "drop-duchy-2026-01-28",
     "title": "Drop Duchy",
     "date": "2026-01-28",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "PC",
@@ -422,6 +480,8 @@
     "id": "mysims-cozy-bundle-2026-01-29",
     "title": "MySims: Cozy Bundle",
     "date": "2026-01-29",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "PC"
     ],
@@ -444,6 +504,8 @@
     "id": "warhammer-40-000-space-marine-ii-2026-01-29",
     "title": "Warhammer 40,000: Space Marine II",
     "date": "2026-01-29",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "PC",
@@ -469,6 +531,8 @@
     "id": "indika-2026-02-02",
     "title": "Indika",
     "date": "2026-02-02",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "PC",
@@ -491,13 +555,39 @@
     "sourcePublishedAt": "2026-01-20"
   },
   {
+    "id": "a-game-about-digging-a-hole-2026-02-03",
+    "title": "A Game About Digging A Hole",
+    "date": "2026-02-03",
+    "eventType": "missed",
+    "isSurprise": true,
+    "platforms": [
+      "Cloud",
+      "Handheld",
+      "PC",
+      "Xbox Series X|S"
+    ],
+    "plans": [],
+    "isDayOne": false,
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.24203.13643221603035245.ddde7541-3c1c-43b1-8b36-964427f91e73.adc9d42b-63e9-4fae-822c-86eb5c5dae54?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageSource": "store-search",
+    "storeUrl": "https://www.microsoft.com/en-us/p/a-game-about-digging-a-hole/9nglst31dg26",
+    "trailerUrl": "https://www.youtube.com/results?search_query=A%20Game%20About%20Digging%20A%20Hole%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=A%20Game%20About%20Digging%20A%20Hole%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/02/03/xbox-game-pass-february-2026-wave-1/",
+    "sourceTitle": "Coming to Xbox Game Pass: High On Life 2, Madden NFL 26, Avatar: Frontiers of Pandora, and More",
+    "sourcePublishedAt": "2026-02-03"
+  },
+  {
     "id": "final-fantasy-ii-2026-02-03",
     "title": "Final Fantasy II",
     "date": "2026-02-03",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
-      "Xbox Series X|S",
-      "PC"
+      "PC",
+      "Xbox Series X|S"
     ],
     "plans": [
       "Game Pass Ultimate",
@@ -511,14 +601,16 @@
     "trailerUrl": "https://www.youtube.com/results?search_query=Final%20Fantasy%20II%20official%20trailer",
     "playthroughUrl": "https://www.youtube.com/results?search_query=Final%20Fantasy%20II%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
-    "sourceUrl": "https://news.xbox.com/en-us/2026/02/03/xbox-game-pass-february-2026-wave-1/",
-    "sourceTitle": "Coming to Xbox Game Pass: High On Life 2, Madden NFL 26, Avatar: Frontiers of Pandora, and More",
-    "sourcePublishedAt": "2026-02-03"
+    "sourceUrl": "https://news.xbox.com/en-us/2026/01/20/xbox-game-pass-january-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Warhammer 40,000: Space Marine II, Death Stranding Director’s Cut, and More",
+    "sourcePublishedAt": "2026-01-20"
   },
   {
     "id": "like-a-dragon-pirate-yakuza-in-hawaii-2026-02-03",
     "title": "Like A Dragon: Pirate Yakuza in Hawaii",
     "date": "2026-02-03",
+    "eventType": "available-today",
+    "isSurprise": true,
     "platforms": [
       "Cloud",
       "Console",
@@ -545,6 +637,8 @@
     "id": "madden-nfl-26-2026-02-05",
     "title": "Madden NFL 26",
     "date": "2026-02-05",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -565,9 +659,35 @@
     "sourcePublishedAt": "2026-02-03"
   },
   {
+    "id": "menace-game-preview-2026-02-05",
+    "title": "Menace (Game Preview)",
+    "date": "2026-02-05",
+    "eventType": "missed",
+    "isSurprise": true,
+    "platforms": [
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "PC Game Pass"
+    ],
+    "isDayOne": false,
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.8098.13771742326595134.4fa71590-3431-450f-bd7b-c15460aaef4d.d9b9c584-fc3f-4d18-8533-ade01e9c63ae?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageSource": "store-search",
+    "storeUrl": "https://www.microsoft.com/en-us/p/menace-game-preview/9nqcj397cq6p",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Menace%20(Game%20Preview)%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=Menace%20(Game%20Preview)%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/02/17/xbox-game-pass-february-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kingdom Come Deliverance II, The Witcher 3: Wild Hunt, EA Sports College Football 26, and More!",
+    "sourcePublishedAt": "2026-02-17"
+  },
+  {
     "id": "paw-patrol-rescue-wheels-championship-2026-02-05",
     "title": "Paw Patrol Rescue Wheels: Championship",
     "date": "2026-02-05",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -594,6 +714,8 @@
     "id": "relooted-2026-02-10",
     "title": "Relooted",
     "date": "2026-02-10",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -614,9 +736,38 @@
     "sourcePublishedAt": "2026-02-03"
   },
   {
+    "id": "diablo-ii-resurrected-2026-02-11",
+    "title": "Diablo II: Resurrected",
+    "date": "2026-02-11",
+    "eventType": "missed",
+    "isSurprise": true,
+    "platforms": [
+      "Cloud",
+      "Console",
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "Game Pass Premium",
+      "PC Game Pass"
+    ],
+    "isDayOne": false,
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.27541.13787575917554446.20ecdcd9-96ae-4d60-9a48-235f05f09ce0.132bf4ac-8b45-40e4-ad19-cffa29751a9a?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageSource": "store-search",
+    "storeUrl": "https://www.microsoft.com/en-us/p/diablo-ii-resurrected-pc/9npslx5hnn3h",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Diablo%20II%3A%20Resurrected%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=Diablo%20II%3A%20Resurrected%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/03/03/xbox-game-pass-march-2026-wave-1/",
+    "sourceTitle": "Coming to Xbox Game Pass: Cyberpunk 2077, Planet of Lana II, and More",
+    "sourcePublishedAt": "2026-03-03"
+  },
+  {
     "id": "starsand-island-2026-02-11",
     "title": "Starsand Island",
     "date": "2026-02-11",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -640,6 +791,8 @@
     "id": "blazblue-entropy-effect-x-2026-02-12",
     "title": "BlazBlue Entropy Effect X",
     "date": "2026-02-12",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -664,6 +817,8 @@
     "id": "roadside-research-game-preview-2026-02-12",
     "title": "Roadside Research (Game Preview)",
     "date": "2026-02-12",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -688,6 +843,8 @@
     "id": "high-on-life-2-2026-02-13",
     "title": "High On Life 2",
     "date": "2026-02-13",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -712,6 +869,8 @@
     "id": "kingdom-come-deliverance-2026-02-13",
     "title": "Kingdom Come Deliverance",
     "date": "2026-02-13",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -736,6 +895,8 @@
     "id": "aerial-knight-s-dropshot-2026-02-17",
     "title": "Aerial_Knight’s DropShot",
     "date": "2026-02-17",
+    "eventType": "available-today",
+    "isSurprise": true,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -761,6 +922,8 @@
     "id": "avatar-frontiers-of-pandora-2026-02-17",
     "title": "Avatar: Frontiers of Pandora",
     "date": "2026-02-17",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -778,14 +941,16 @@
     "trailerUrl": "https://www.youtube.com/results?search_query=Avatar%3A%20Frontiers%20of%20Pandora%20official%20trailer",
     "playthroughUrl": "https://www.youtube.com/results?search_query=Avatar%3A%20Frontiers%20of%20Pandora%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
-    "sourceUrl": "https://news.xbox.com/en-us/2026/02/17/xbox-game-pass-february-2026-wave-2/",
-    "sourceTitle": "Coming to Xbox Game Pass: Kingdom Come Deliverance II, The Witcher 3: Wild Hunt, EA Sports College Football 26, and More!",
-    "sourcePublishedAt": "2026-02-17"
+    "sourceUrl": "https://news.xbox.com/en-us/2026/02/03/xbox-game-pass-february-2026-wave-1/",
+    "sourceTitle": "Coming to Xbox Game Pass: High On Life 2, Madden NFL 26, Avatar: Frontiers of Pandora, and More",
+    "sourcePublishedAt": "2026-02-03"
   },
   {
     "id": "avowed-2026-02-17",
     "title": "Avowed",
     "date": "2026-02-17",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -801,14 +966,16 @@
     "trailerUrl": "https://www.youtube.com/results?search_query=Avowed%20official%20trailer",
     "playthroughUrl": "https://www.youtube.com/results?search_query=Avowed%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
-    "sourceUrl": "https://news.xbox.com/en-us/2026/02/17/xbox-game-pass-february-2026-wave-2/",
-    "sourceTitle": "Coming to Xbox Game Pass: Kingdom Come Deliverance II, The Witcher 3: Wild Hunt, EA Sports College Football 26, and More!",
-    "sourcePublishedAt": "2026-02-17"
+    "sourceUrl": "https://news.xbox.com/en-us/2026/02/03/xbox-game-pass-february-2026-wave-1/",
+    "sourceTitle": "Coming to Xbox Game Pass: High On Life 2, Madden NFL 26, Avatar: Frontiers of Pandora, and More",
+    "sourcePublishedAt": "2026-02-03"
   },
   {
     "id": "death-howl-2026-02-19",
     "title": "Death Howl",
     "date": "2026-02-19",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -834,6 +1001,8 @@
     "id": "ea-sports-college-football-26-2026-02-19",
     "title": "EA Sports College Football 26",
     "date": "2026-02-19",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S"
@@ -856,6 +1025,8 @@
     "id": "the-witcher-3-wild-hunt-complete-edition-2026-02-19",
     "title": "The Witcher 3: Wild Hunt – Complete Edition",
     "date": "2026-02-19",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console"
@@ -879,6 +1050,8 @@
     "id": "tcg-card-shop-simulator-game-preview-2026-02-24",
     "title": "TCG Card Shop Simulator (Game Preview)",
     "date": "2026-02-24",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -905,6 +1078,8 @@
     "id": "dice-a-million-2026-02-25",
     "title": "Dice A Million",
     "date": "2026-02-25",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "PC"
     ],
@@ -927,6 +1102,8 @@
     "id": "towerborne-full-game-release-2026-02-26",
     "title": "Towerborne (Full Game Release)",
     "date": "2026-02-26",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Console",
       "Handheld",
@@ -952,6 +1129,8 @@
     "id": "final-fantasy-iii-2026-03-03",
     "title": "Final Fantasy III",
     "date": "2026-03-03",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -963,20 +1142,21 @@
       "PC Game Pass"
     ],
     "isDayOne": false,
-    "imageUrl": "https://store-images.s-microsoft.com/image/apps.10723.14451317888346729.aa788569-1cd5-4640-bca3-a53d5278fc18.a82da078-1946-4c5d-9539-5428858c14fb?&q=90&w=640&h=360&mode=scale&format=jpg",
-    "imageSource": "store-search",
-    "storeUrl": "https://www.microsoft.com/en-us/p/final-fantasy-iii/9nwdpfppk30v",
+    "imageUrl": "https://xboxwire.thesourcemediaassets.com/sites/2/2024/08/KCD2_Standard_16_9-05bd2b48ab3288109483-1900x1080.jpg",
+    "imageSource": "xbox-wire",
     "trailerUrl": "https://www.youtube.com/results?search_query=Final%20Fantasy%20III%20official%20trailer",
     "playthroughUrl": "https://www.youtube.com/results?search_query=Final%20Fantasy%20III%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
-    "sourceUrl": "https://news.xbox.com/en-us/2026/03/03/xbox-game-pass-march-2026-wave-1/",
-    "sourceTitle": "Coming to Xbox Game Pass: Cyberpunk 2077, Planet of Lana II, and More",
-    "sourcePublishedAt": "2026-03-03"
+    "sourceUrl": "https://news.xbox.com/en-us/2026/02/17/xbox-game-pass-february-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kingdom Come Deliverance II, The Witcher 3: Wild Hunt, EA Sports College Football 26, and More!",
+    "sourcePublishedAt": "2026-02-17"
   },
   {
     "id": "kingdom-come-deliverance-ii-2026-03-03",
     "title": "Kingdom Come: Deliverance II",
     "date": "2026-03-03",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -994,14 +1174,44 @@
     "trailerUrl": "https://www.youtube.com/results?search_query=Kingdom%20Come%3A%20Deliverance%20II%20official%20trailer",
     "playthroughUrl": "https://www.youtube.com/results?search_query=Kingdom%20Come%3A%20Deliverance%20II%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
-    "sourceUrl": "https://news.xbox.com/en-us/2026/03/03/xbox-game-pass-march-2026-wave-1/",
-    "sourceTitle": "Coming to Xbox Game Pass: Cyberpunk 2077, Planet of Lana II, and More",
-    "sourcePublishedAt": "2026-03-03"
+    "sourceUrl": "https://news.xbox.com/en-us/2026/02/17/xbox-game-pass-february-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kingdom Come Deliverance II, The Witcher 3: Wild Hunt, EA Sports College Football 26, and More!",
+    "sourcePublishedAt": "2026-02-17"
+  },
+  {
+    "id": "minishoot-adventures-2026-03-03",
+    "title": "Minishoot’ Adventures",
+    "date": "2026-03-03",
+    "eventType": "missed",
+    "isSurprise": true,
+    "platforms": [
+      "Console",
+      "Cloud",
+      "Handheld",
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "Game Pass Premium",
+      "PC Game Pass"
+    ],
+    "isDayOne": false,
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.255.14034134777008506.7f93c2af-ec4e-4905-a864-90af002fd3aa.e1cb9e6a-2545-4bdc-97e1-577c876295ea?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageSource": "store-search",
+    "storeUrl": "https://www.microsoft.com/en-us/p/minishoot-adventures/9n5pkh0kw2l1",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Minishoot%E2%80%99%20Adventures%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=Minishoot%E2%80%99%20Adventures%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/03/17/xbox-game-pass-march-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Disco Elysium, Resident Evil 7: Biohazard, Final Fantasy IV and More",
+    "sourcePublishedAt": "2026-03-17"
   },
   {
     "id": "ea-sports-f1-25-2026-03-04",
     "title": "EA Sports F1 25",
     "date": "2026-03-04",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1027,6 +1237,8 @@
     "id": "to-a-t-2026-03-04",
     "title": "to a T",
     "date": "2026-03-04",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1052,6 +1264,8 @@
     "id": "planet-of-lana-ii-children-of-the-leaf-2026-03-05",
     "title": "Planet of Lana II: Children of the Leaf",
     "date": "2026-03-05",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1076,6 +1290,8 @@
     "id": "construction-simulator-2026-03-10",
     "title": "Construction Simulator",
     "date": "2026-03-10",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -1101,6 +1317,8 @@
     "id": "cyberpunk-2077-2026-03-10",
     "title": "Cyberpunk 2077",
     "date": "2026-03-10",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console"
@@ -1123,6 +1341,8 @@
     "id": "hollow-knight-silksong-2026-03-12",
     "title": "Hollow Knight: Silksong",
     "date": "2026-03-12",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -1149,6 +1369,8 @@
     "id": "dreamworks-gabby-s-dollhouse-ready-to-party-2026-03-17",
     "title": "DreamWorks Gabby’s Dollhouse: Ready to Party",
     "date": "2026-03-17",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1166,14 +1388,16 @@
     "trailerUrl": "https://www.youtube.com/results?search_query=DreamWorks%20Gabby%E2%80%99s%20Dollhouse%3A%20Ready%20to%20Party%20official%20trailer",
     "playthroughUrl": "https://www.youtube.com/results?search_query=DreamWorks%20Gabby%E2%80%99s%20Dollhouse%3A%20Ready%20to%20Party%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
-    "sourceUrl": "https://news.xbox.com/en-us/2026/03/17/xbox-game-pass-march-2026-wave-2/",
-    "sourceTitle": "Coming to Xbox Game Pass: Disco Elysium, Resident Evil 7: Biohazard, Final Fantasy IV and More",
-    "sourcePublishedAt": "2026-03-17"
+    "sourceUrl": "https://news.xbox.com/en-us/2026/03/03/xbox-game-pass-march-2026-wave-1/",
+    "sourceTitle": "Coming to Xbox Game Pass: Cyberpunk 2077, Planet of Lana II, and More",
+    "sourcePublishedAt": "2026-03-03"
   },
   {
     "id": "south-of-midnight-2026-03-18",
     "title": "South of Midnight",
     "date": "2026-03-18",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -1200,6 +1424,8 @@
     "id": "the-alters-2026-03-18",
     "title": "The Alters",
     "date": "2026-03-18",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1225,6 +1451,8 @@
     "id": "disco-elysium-2026-03-19",
     "title": "Disco Elysium",
     "date": "2026-03-19",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1249,6 +1477,8 @@
     "id": "like-a-dragon-infinite-wealth-2026-03-24",
     "title": "Like a Dragon: Infinite Wealth",
     "date": "2026-03-24",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -1275,6 +1505,8 @@
     "id": "absolum-2026-03-25",
     "title": "Absolum",
     "date": "2026-03-25",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1297,9 +1529,39 @@
     "sourcePublishedAt": "2026-03-17"
   },
   {
+    "id": "easy-delivery-co-2026-03-26",
+    "title": "Easy Delivery Co.",
+    "date": "2026-03-26",
+    "eventType": "missed",
+    "isSurprise": true,
+    "platforms": [
+      "Cloud",
+      "Xbox Series X|S",
+      "Handheld",
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "Game Pass Premium",
+      "PC Game Pass"
+    ],
+    "isDayOne": false,
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.48458.14156976155849797.4080179d-9c03-44a9-8dea-d7e0c551a9c9.06630086-d8e8-40c4-8f63-7b98dd7c689c?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageSource": "store-search",
+    "storeUrl": "https://www.microsoft.com/en-us/p/easy-delivery-co/9pdc8j1bsv8b",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Easy%20Delivery%20Co.%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=Easy%20Delivery%20Co.%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/04/07/xbox-game-pass-april-2026-wave-1/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kiln, Hades II, Vampire Crawlers, and More",
+    "sourcePublishedAt": "2026-04-07"
+  },
+  {
     "id": "nova-roma-game-preview-2026-03-26",
     "title": "Nova Roma (Game Preview)",
     "date": "2026-03-26",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "PC"
     ],
@@ -1322,6 +1584,8 @@
     "id": "the-long-dark-2026-03-30",
     "title": "The Long Dark",
     "date": "2026-03-30",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -1347,6 +1611,8 @@
     "id": "resident-evil-7-biohazard-2026-03-31",
     "title": "Resident Evil 7: Biohazard",
     "date": "2026-03-31",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -1368,9 +1634,38 @@
     "sourcePublishedAt": "2026-03-17"
   },
   {
+    "id": "super-meat-boy-3d-2026-03-31",
+    "title": "Super Meat Boy 3D",
+    "date": "2026-03-31",
+    "eventType": "missed",
+    "isSurprise": true,
+    "platforms": [
+      "Cloud",
+      "Series X|S",
+      "Handheld",
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "PC Game Pass"
+    ],
+    "isDayOne": false,
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.45499.13682468967165125.f6cc8af7-98b7-44e0-b9cb-cf7be3ecd662.04945db8-f776-4bce-aaa1-1d4b163639dd?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageSource": "store-search",
+    "storeUrl": "https://www.microsoft.com/en-us/p/super-meat-boy-3d/9nj67tqq51z0",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Super%20Meat%20Boy%203D%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=Super%20Meat%20Boy%203D%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/04/07/xbox-game-pass-april-2026-wave-1/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kiln, Hades II, Vampire Crawlers, and More",
+    "sourcePublishedAt": "2026-04-07"
+  },
+  {
     "id": "barbie-horse-trails-2026-04-02",
     "title": "Barbie Horse Trails",
     "date": "2026-04-02",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -1397,6 +1692,8 @@
     "id": "clair-obscur-expedition-33-2026-04-02",
     "title": "Clair Obscur Expedition 33",
     "date": "2026-04-02",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1420,9 +1717,39 @@
     "sourcePublishedAt": "2026-03-17"
   },
   {
+    "id": "nba-2k26-2026-04-03",
+    "title": "NBA 2K26",
+    "date": "2026-04-03",
+    "eventType": "missed",
+    "isSurprise": true,
+    "platforms": [
+      "Cloud",
+      "Console",
+      "Handheld",
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "Game Pass Premium",
+      "PC Game Pass"
+    ],
+    "isDayOne": false,
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.23652.14220255605673269.167b0e48-1b10-4ff3-8231-dbaf3fa1ed77.12dd221d-1bda-49fa-8602-c6fb59ebf56f?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageSource": "store-search",
+    "storeUrl": "https://www.microsoft.com/en-us/p/nba-2k26-standard-edition/9pj2rvrc0l1x",
+    "trailerUrl": "https://www.youtube.com/results?search_query=NBA%202K26%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=NBA%202K26%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/04/07/xbox-game-pass-april-2026-wave-1/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kiln, Hades II, Vampire Crawlers, and More",
+    "sourcePublishedAt": "2026-04-07"
+  },
+  {
     "id": "final-fantasy-iv-2026-04-07",
     "title": "Final Fantasy IV",
     "date": "2026-04-07",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1434,20 +1761,21 @@
       "PC Game Pass"
     ],
     "isDayOne": false,
-    "imageUrl": "https://store-images.s-microsoft.com/image/apps.35225.14047651100003233.0972ca9a-2a5a-40da-ab16-debd2d97175b.7917c828-ff31-422c-a8ca-140f8b0bf337?&q=90&w=640&h=360&mode=scale&format=jpg",
-    "imageSource": "store-search",
-    "storeUrl": "https://www.microsoft.com/en-us/p/final-fantasy-iv/9n8c07ss8c9d",
+    "imageUrl": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/03/Final_Fantasy_4-43241f7113993e7aeeb5-1900x1080.jpg",
+    "imageSource": "xbox-wire",
     "trailerUrl": "https://www.youtube.com/results?search_query=Final%20Fantasy%20IV%20official%20trailer",
     "playthroughUrl": "https://www.youtube.com/results?search_query=Final%20Fantasy%20IV%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
-    "sourceUrl": "https://news.xbox.com/en-us/2026/04/07/xbox-game-pass-april-2026-wave-1/",
-    "sourceTitle": "Coming to Xbox Game Pass: Kiln, Hades II, Vampire Crawlers, and More",
-    "sourcePublishedAt": "2026-04-07"
+    "sourceUrl": "https://news.xbox.com/en-us/2026/03/17/xbox-game-pass-march-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Disco Elysium, Resident Evil 7: Biohazard, Final Fantasy IV and More",
+    "sourcePublishedAt": "2026-03-17"
   },
   {
     "id": "dayz-2026-04-08",
     "title": "DayZ",
     "date": "2026-04-08",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "PC"
     ],
@@ -1472,6 +1800,8 @@
     "id": "endless-legend-2-game-preview-2026-04-08",
     "title": "Endless Legend 2 (Game Preview)",
     "date": "2026-04-08",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "PC"
     ],
@@ -1495,6 +1825,8 @@
     "id": "fbc-firebreak-2026-04-08",
     "title": "FBC: Firebreak",
     "date": "2026-04-08",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1520,6 +1852,8 @@
     "id": "planet-coaster-2-2026-04-09",
     "title": "Planet Coaster 2",
     "date": "2026-04-09",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1545,6 +1879,8 @@
     "id": "tiny-bookshop-2026-04-10",
     "title": "Tiny Bookshop",
     "date": "2026-04-10",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1571,6 +1907,8 @@
     "id": "football-manager-26-2026-04-13",
     "title": "Football Manager 26",
     "date": "2026-04-13",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "PC"
     ],
@@ -1594,6 +1932,8 @@
     "id": "football-manager-26-console-2026-04-13",
     "title": "Football Manager 26 Console",
     "date": "2026-04-13",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -1619,6 +1959,8 @@
     "id": "hades-ii-2026-04-14",
     "title": "Hades II",
     "date": "2026-04-14",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1644,6 +1986,8 @@
     "id": "replaced-2026-04-14",
     "title": "Replaced",
     "date": "2026-04-14",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1668,6 +2012,8 @@
     "id": "the-thaumaturge-2026-04-14",
     "title": "The Thaumaturge",
     "date": "2026-04-14",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1693,6 +2039,8 @@
     "id": "ea-sports-nhl-26-2026-04-16",
     "title": "EA Sports NHL 26",
     "date": "2026-04-16",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S"
@@ -1716,6 +2064,8 @@
     "id": "the-elder-scrolls-iv-oblivion-remastered-2026-04-16",
     "title": "The Elder Scrolls IV: Oblivion Remastered",
     "date": "2026-04-16",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1741,6 +2091,8 @@
     "id": "call-of-duty-modern-warfare-2026-04-17",
     "title": "Call of Duty: Modern Warfare",
     "date": "2026-04-17",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -1766,6 +2118,8 @@
     "id": "little-rocket-lab-2026-04-21",
     "title": "Little Rocket Lab",
     "date": "2026-04-21",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -1791,6 +2145,8 @@
     "id": "sopa-tale-of-the-stolen-potato-2026-04-21",
     "title": "Sopa: Tale of the Stolen Potato",
     "date": "2026-04-21",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Console",
@@ -1817,6 +2173,8 @@
     "id": "vampire-crawlers-2026-04-21",
     "title": "Vampire Crawlers",
     "date": "2026-04-21",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1841,6 +2199,8 @@
     "id": "vampire-crawlers-the-turbo-wildcard-from-vampire-survivors-2026-04-21",
     "title": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
     "date": "2026-04-21",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1866,6 +2226,8 @@
     "id": "kiln-2026-04-23",
     "title": "Kiln",
     "date": "2026-04-23",
+    "eventType": "coming-soon",
+    "isSurprise": false,
     "platforms": [
       "Cloud",
       "Xbox Series X|S",
@@ -1874,7 +2236,8 @@
     ],
     "plans": [
       "Game Pass Ultimate",
-      "PC Game Pass"
+      "PC Game Pass",
+      "Game Pass Essential"
     ],
     "isDayOne": true,
     "imageUrl": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/04/Kiln_KeyArt_1920x1080-864c358e468ded1e7067-1900x1080.jpg",

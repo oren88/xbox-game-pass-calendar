@@ -365,6 +365,26 @@ a:focus-visible,
   color: #ffffff;
 }
 
+.event-kicker .event-type {
+  background: #eef5ed;
+  color: var(--xbox-dark);
+}
+
+.event-kicker .available-today {
+  background: #e9f1ff;
+  color: #1751a6;
+}
+
+.event-kicker .missed {
+  background: #fff4df;
+  color: #8a5600;
+}
+
+.event-kicker .surprise-badge {
+  background: #29302c;
+  color: #ffffff;
+}
+
 .event-card h3 {
   margin: 6px 0 4px;
   overflow-wrap: anywhere;

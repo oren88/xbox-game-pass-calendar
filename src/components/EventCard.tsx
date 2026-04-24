@@ -7,6 +7,12 @@ type EventCardProps = {
   compact?: boolean
 }
 
+const eventTypeLabels: Record<GamePassEvent['eventType'], string> = {
+  'coming-soon': '예고',
+  'available-today': '오늘 입점',
+  missed: '놓친 입점',
+}
+
 export function EventCard({ event, compact = false }: EventCardProps) {
   const imageClassName =
     event.imageSource === 'store' || event.imageSource === 'store-search'
@@ -31,6 +37,8 @@ export function EventCard({ event, compact = false }: EventCardProps) {
             <CalendarDays size={14} />
             {shortDateLabel.format(new Date(`${event.date}T00:00:00`))}
           </span>
+          <strong className={`event-type ${event.eventType}`}>{eventTypeLabels[event.eventType]}</strong>
+          {event.isSurprise ? <strong className="surprise-badge">깜짝</strong> : null}
           {event.isDayOne ? <strong>Day one</strong> : null}
         </div>
         <h3>{event.title}</h3>
