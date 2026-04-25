@@ -1597,9 +1597,9 @@
       "PC Game Pass"
     ],
     "isDayOne": false,
-    "imageUrl": "https://store-images.s-microsoft.com/image/apps.29824.13597521366015513.fe820bcf-9c60-4f57-a3a7-7cf9ca9f1fc1.2d8ba7ec-aee2-4217-b504-3feb93b84f1d?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.28995.66934420265726607.97919c5c-edc3-4ec4-a441-ca3d129949d8.c25d9682-7a67-449e-9f24-fba0216ba0d9?&q=90&w=640&h=360&mode=scale&format=jpg",
     "imageSource": "store-search",
-    "storeUrl": "https://www.microsoft.com/en-us/p/the-long-dark/9nfkn56zbmr0",
+    "storeUrl": "https://www.microsoft.com/en-us/p/the-long-dark/c41zdfq82m1g",
     "trailerUrl": "https://www.youtube.com/results?search_query=The%20Long%20Dark%20official%20trailer",
     "playthroughUrl": "https://www.youtube.com/results?search_query=The%20Long%20Dark%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
@@ -2244,6 +2244,161 @@
     "imageSource": "xbox-wire",
     "trailerUrl": "https://www.youtube.com/results?search_query=Kiln%20official%20trailer",
     "playthroughUrl": "https://www.youtube.com/results?search_query=Kiln%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/04/20/xbox-game-pass-april-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kiln, Aphelion, Final Fantasy V, and More",
+    "sourcePublishedAt": "2026-04-20"
+  },
+  {
+    "id": "aphelion-2026-04-28",
+    "title": "Aphelion",
+    "date": "2026-04-28",
+    "eventType": "coming-soon",
+    "isSurprise": false,
+    "platforms": [
+      "Cloud",
+      "Xbox Series X|S",
+      "Handheld",
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "PC Game Pass"
+    ],
+    "isDayOne": true,
+    "imageUrl": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/04/Aphelion_Horizontal_1920x1080-140d996b5f600888c4c7-1900x1080.jpg",
+    "imageSource": "xbox-wire",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Aphelion%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=Aphelion%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/04/20/xbox-game-pass-april-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kiln, Aphelion, Final Fantasy V, and More",
+    "sourcePublishedAt": "2026-04-20"
+  },
+  {
+    "id": "trepang2-2026-04-29",
+    "title": "Trepang2",
+    "date": "2026-04-29",
+    "eventType": "coming-soon",
+    "isSurprise": false,
+    "platforms": [
+      "Cloud",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "Game Pass Premium",
+      "PC Game Pass"
+    ],
+    "isDayOne": false,
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.30600.13565307987155634.2e7d3c9a-2f66-4f64-b6d1-4ba36001191e.d60544cd-ffe8-449a-b2e5-b0208f184784?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageSource": "store-search",
+    "storeUrl": "https://www.microsoft.com/en-us/p/trepang2/9ncdmpcpdtqf",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Trepang2%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=Trepang2%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/04/20/xbox-game-pass-april-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kiln, Aphelion, Final Fantasy V, and More",
+    "sourcePublishedAt": "2026-04-20"
+  },
+  {
+    "id": "heroes-of-might-magic-olden-era-game-preview-2026-04-30",
+    "title": "Heroes of Might & Magic: Olden Era (Game Preview)",
+    "date": "2026-04-30",
+    "eventType": "coming-soon",
+    "isSurprise": false,
+    "platforms": [
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "PC Game Pass"
+    ],
+    "isDayOne": true,
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.19916.14555346148176053.3c4eeac4-80f2-4a05-b548-e0a6dfdd9587.4fe072ae-40aa-42a2-80b5-8d4c78c1b5ed?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageSource": "store-search",
+    "storeUrl": "https://www.microsoft.com/en-us/p/heroes-of-might-and-magic-olden-era-game-preview/9p2tfccrkmrd",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Heroes%20of%20Might%20%26%20Magic%3A%20Olden%20Era%20(Game%20Preview)%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=Heroes%20of%20Might%20%26%20Magic%3A%20Olden%20Era%20(Game%20Preview)%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/04/20/xbox-game-pass-april-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kiln, Aphelion, Final Fantasy V, and More",
+    "sourcePublishedAt": "2026-04-20"
+  },
+  {
+    "id": "sledding-game-game-preview-2026-04-30",
+    "title": "Sledding Game (Game Preview)",
+    "date": "2026-04-30",
+    "eventType": "coming-soon",
+    "isSurprise": false,
+    "platforms": [
+      "Cloud",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "PC Game Pass"
+    ],
+    "isDayOne": true,
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.41656.13540127136823287.905cafb8-0ff7-4de4-b8e8-42147b2d207c.4f8f28f9-f1de-480f-8325-fc1b8043cfde?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageSource": "store-search",
+    "storeUrl": "https://www.microsoft.com/en-us/p/sledding-game/9n9c1tb18r3b",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Sledding%20Game%20(Game%20Preview)%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=Sledding%20Game%20(Game%20Preview)%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/04/20/xbox-game-pass-april-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kiln, Aphelion, Final Fantasy V, and More",
+    "sourcePublishedAt": "2026-04-20"
+  },
+  {
+    "id": "terratech-legion-2026-04-30",
+    "title": "TerraTech Legion",
+    "date": "2026-04-30",
+    "eventType": "coming-soon",
+    "isSurprise": false,
+    "platforms": [
+      "Cloud",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "PC Game Pass"
+    ],
+    "isDayOne": false,
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.15196.13585353061256768.b315c73a-6fa5-4904-a630-10df7642c16b.890b8d29-552b-420b-a158-2496cd71109b?&q=90&w=640&h=360&mode=scale&format=jpg",
+    "imageSource": "store-search",
+    "storeUrl": "https://www.microsoft.com/en-us/p/terratech-legion/9ng66k0z31lh",
+    "trailerUrl": "https://www.youtube.com/results?search_query=TerraTech%20Legion%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=TerraTech%20Legion%20gameplay%20walkthrough",
+    "videoSource": "youtube-search",
+    "sourceUrl": "https://news.xbox.com/en-us/2026/04/20/xbox-game-pass-april-2026-wave-2/",
+    "sourceTitle": "Coming to Xbox Game Pass: Kiln, Aphelion, Final Fantasy V, and More",
+    "sourcePublishedAt": "2026-04-20"
+  },
+  {
+    "id": "final-fantasy-v-2026-05-05",
+    "title": "Final Fantasy V",
+    "date": "2026-05-05",
+    "eventType": "coming-soon",
+    "isSurprise": false,
+    "platforms": [
+      "Cloud",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "plans": [
+      "Game Pass Ultimate",
+      "Game Pass Premium",
+      "PC Game Pass"
+    ],
+    "isDayOne": false,
+    "imageUrl": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/04/FinalFantasyV_1920x1080-5c0c3f0586973f2c002c-1900x1080.jpg",
+    "imageSource": "xbox-wire",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Final%20Fantasy%20V%20official%20trailer",
+    "playthroughUrl": "https://www.youtube.com/results?search_query=Final%20Fantasy%20V%20gameplay%20walkthrough",
     "videoSource": "youtube-search",
     "sourceUrl": "https://news.xbox.com/en-us/2026/04/20/xbox-game-pass-april-2026-wave-2/",
     "sourceTitle": "Coming to Xbox Game Pass: Kiln, Aphelion, Final Fantasy V, and More",

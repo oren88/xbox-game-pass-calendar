@@ -9,7 +9,9 @@ const OUTPUT_PATH = resolve('src/data/gamepass-events.json')
 const IMAGE_OVERRIDES_PATH = resolve('src/data/image-overrides.json')
 const ARTICLE_LIMIT = Number(process.env.ARTICLE_LIMIT ?? 8)
 const START_DATE = process.env.START_DATE ?? `${new Date().getUTCFullYear()}-01-01`
-const END_DATE = process.env.END_DATE ?? toIsoDate(new Date())
+const ARTICLE_END_DATE = process.env.ARTICLE_END_DATE ?? process.env.END_DATE ?? toIsoDate(new Date())
+const EVENT_END_DATE =
+  process.env.EVENT_END_DATE ?? process.env.END_DATE ?? toIsoDate(addDays(new Date(), 90))
 const MONTHS: Record<string, number> = {
   january: 0,
   february: 1,
@@ -92,6 +94,12 @@ function normalizeText(text: string) {
 
 function toIsoDate(date: Date) {
   return date.toISOString().slice(0, 10)
+}
+
+function addDays(date: Date, days: number) {
+  const copy = new Date(date)
+  copy.setUTCDate(copy.getUTCDate() + days)
+  return copy
 }
 
 function parsePublishedDate($: cheerio.CheerioAPI) {
@@ -796,7 +804,7 @@ async function main() {
   }
   const articleUrls = [
     ...new Set([
-      ...buildWaveArticleUrls(START_DATE, END_DATE),
+      ...buildWaveArticleUrls(START_DATE, ARTICLE_END_DATE),
       ...categoryLinks,
     ]),
   ]
@@ -813,7 +821,7 @@ async function main() {
   )
   const parsedEvents = dedupeEvents(
     markSurpriseEvents(normalizeImplicitMissedDates(eventGroups.flat())),
-  ).filter((event) => inDateRange(event.date, START_DATE, END_DATE))
+  ).filter((event) => inDateRange(event.date, START_DATE, EVENT_END_DATE))
   const events = await applyImageFallbacks(parsedEvents)
 
   if (events.length === 0) {
@@ -823,7 +831,7 @@ async function main() {
   await mkdir(dirname(OUTPUT_PATH), { recursive: true })
   await writeFile(OUTPUT_PATH, `${JSON.stringify(events, null, 2)}\n`)
   console.log(
-    `Wrote ${events.length} events between ${START_DATE} and ${END_DATE} from ${articleUrls.length} candidate Xbox Wire articles.`,
+    `Wrote ${events.length} events between ${START_DATE} and ${EVENT_END_DATE} from ${articleUrls.length} candidate Xbox Wire articles through ${ARTICLE_END_DATE}.`,
   )
 }
 
